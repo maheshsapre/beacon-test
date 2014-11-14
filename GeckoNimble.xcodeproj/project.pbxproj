@@ -11,6 +11,7 @@
 		278599211949BDA90029E376 /* IndoorGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278599201949BDA90029E376 /* IndoorGuide.framework */; };
 		27BABCAF18C5D0E700B07DAD /* NDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BABCAE18C5D0E700B07DAD /* NDSettingsViewController.m */; };
 		27FF17D718C763ED00C574AF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FF17D618C763ED00C574AF /* CoreMotion.framework */; };
+		4D32EB281A15DD22005E3E81 /* demoTest.ndd in Resources */ = {isa = PBXBuildFile; fileRef = 4D96780D1A079B9800F92CE5 /* demoTest.ndd */; };
 		EF50B7B017ED9A8E006DD7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF50B7AF17ED9A8E006DD7B2 /* Foundation.framework */; };
 		EF50B7B217ED9A8E006DD7B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF50B7B117ED9A8E006DD7B2 /* CoreGraphics.framework */; };
 		EF50B7B417ED9A8E006DD7B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF50B7B317ED9A8E006DD7B2 /* UIKit.framework */; };
@@ -196,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D32EB281A15DD22005E3E81 /* demoTest.ndd in Resources */,
 				EF50B7C617ED9A8E006DD7B2 /* Main_iPad.storyboard in Resources */,
 				EF50B7CB17ED9A8E006DD7B2 /* Images.xcassets in Resources */,
 				EF50B7C317ED9A8E006DD7B2 /* Main_iPhone.storyboard in Resources */,

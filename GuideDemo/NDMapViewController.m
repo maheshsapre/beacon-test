@@ -38,9 +38,9 @@
 {
     [super viewDidLoad];
     guide = [IGGuideManager sharedManager];
-    NSString *docsDir = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-    NSString *imageString = @"demoTest.ndd";
-    NSString* foofile = [docsDir stringByAppendingPathComponent:imageString];
+
+    NSString *foofile = [[NSBundle mainBundle] pathForResource:@"demoTest" ofType:@"ndd"];
+    
     [guide setNDDPath:foofile];
     [guide startUpdates];
 //    
@@ -68,6 +68,7 @@
         [[NSUserDefaults standardUserDefaults] setBool:false forKey:@"Reload"];
     }
 }
+
 - (void) reload
 {
 //    [guide stopUpdates];
